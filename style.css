@@ -13,12 +13,44 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.24;
+    color:#3d3a38;
 }
+/*Header*/
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5;
     font-size: 16px;
+}
+/*Main*/
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner-image{
+background-image: url('./asset/imgs/banner-image.png');
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+}
+.banner-bg{
+background-image: url('./asset/imgs/banner-bg.png');
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+}
+h1{
+font-size: 5rem;
+}
+.shop{
+border-color: #3d3a38;
+width: 300px;
+height: 80px;
+}
+.shop:hover {
+background-color: #3d3a38;
+color: white;
+}
+h4{
+    font-weight: bold;
 }
