@@ -65,3 +65,12 @@ h2{
     font-weight: 900;
     color: #04DF6C;
 }
+
+.icon{
+    margin: 0 0.5rem;
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
