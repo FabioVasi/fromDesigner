@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --text-color: #3d3a38;
+    --icon-color: #2E45CC;
+    --price-color: #04DF6C;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.24;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+}
