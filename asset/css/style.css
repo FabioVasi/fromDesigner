@@ -32,15 +32,17 @@ background-image: url('../imgs/banner-image.png');
 background-repeat: no-repeat;
 background-position: bottom;
 background-size: cover;
+min-height: 600px;
 }
 .banner-bg{
 background-image: url('../imgs/banner-bg.png');
 background-repeat: no-repeat;
 background-position: bottom;
 background-size: cover;
+min-height: 600px;
 }
 h1{
-font-size: 5rem;
+font-size: 4.5rem;
 }
 .shop{
 border-color: #3d3a38;

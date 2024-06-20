@@ -10,13 +10,13 @@ let swiper = new Swiper(".slide-content", {
       dynamicBullets: true,
     },
     breakpoints: {
-        0: {
+        576: {
             slidesPerView: 1,
         },
-        520: {
+        768: {
             slidesPerView: 2,
         },
-        950: {
+        1140: {
             slidesPerView: 3,
         }
     },
