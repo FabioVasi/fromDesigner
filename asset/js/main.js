@@ -1,15 +1,23 @@
-import '../css/style.css'
-
-document.querySelectorAll('.control-button').forEach((button, index) => {
-    button.addEventListener('click', () => {
-        document.querySelectorAll('.control-button').forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
-        $('#cardSlider').carousel(index);
-    });
-});
-
-$('#cardSlider').on('slide.bs.carousel', function (e) {
-    const index = $(e.relatedTarget).index();
-    document.querySelectorAll('.control-button').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.control-button')[index].classList.add('active');
-});
+let swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        }
+    },
+  });
