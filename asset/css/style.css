@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root{
     --text-color: #3d3a38;
     --icon-color: #2E45CC;
     --price-color: #04DF6C;
 }
+
 body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -15,18 +17,14 @@ body{
     font-style: normal;
     color:#3d3a38;
 }
-/*Header*/
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
 }
-/*Main*/
-.banner{
-    width: 100%;
-    height: auto;
-}
+
 .banner-image{
 background-image: url('../imgs/banner-image.png');
 background-repeat: no-repeat;
@@ -34,6 +32,7 @@ background-position: bottom;
 background-size: cover;
 min-height: 600px;
 }
+
 .banner-bg{
 background-image: url('../imgs/banner-bg.png');
 background-repeat: no-repeat;
@@ -41,27 +40,34 @@ background-position: bottom;
 background-size: cover;
 min-height: 600px;
 }
+
 h1{
 font-size: 4.5rem;
 }
+
 .shop{
 border-color: #3d3a38;
 width: 300px;
 height: 80px;
 }
+
 .shop:hover {
 background-color: #3d3a38;
 color: white;
 }
+
 h3, h4{
     font-weight: bold;
 }
+
 h2{
     font-size: 4rem;
 }
+
 .slider{
     height: 1000px;
 }
+
 .price{
     font-size: 20px;
     font-weight: 900;
@@ -76,23 +82,28 @@ h2{
     border: 2px solid lightgray;
     border-radius: 50%;
 }
+
 .slide-content{
     margin: 0 40px;
     overflow: hidden;
 }
+
 .card{
     width: 320px;
 }
+
 .card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
 }
+
 .swiper-pagination-bullet{
     width: 1rem;
     height: 1rem;
 }
+
 .swiper-pagination-bullet-active{
     background-color: #2E45CC;
 }
